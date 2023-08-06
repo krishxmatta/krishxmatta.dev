@@ -17,7 +17,6 @@ paginate = 5
 [languages]
   [languages.en]
     title = "krishxmatta.dev"
-    subtitle = "My brain dump."
     keywords = ""
     copyright = ""
     menuMore = "Show more"
