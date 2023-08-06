@@ -1,0 +1,19 @@
++++
+title = "About Me"
+date = 2023-08-04
+draft = false
+math = true
++++
+
+I'm Krish Matta. This website serves as an outlet for me to haphazardly share some of my thoughts and findings.
+
+
+## Work {#work}
+
+I'm a student at Carnegie Mellon University in Pittsburgh, Pennsylvania. While my degree title states computer science, I'm interested in much more. I have worked for: NASA Goddard Space Flight Center (2022), University of Delaware Safro Research Group (2021 - 2023), and Roblox (2023).
+
+
+## Sites {#sites}
+
+-   [GitHub](https://github.com/krishxmatta)
+-   [LinkedIn](https://www.linkedin.com/in/krishxmatta/)
