@@ -1,0 +1,11 @@
+<div class="logo">
+  <a href="{{ "/" | relURL }}">
+    <span class="logo-letter">K</span>
+  </a>
+</div>
+
+<nav class="navigation">
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+</nav>

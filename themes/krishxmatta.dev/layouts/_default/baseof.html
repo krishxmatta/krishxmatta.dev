@@ -12,7 +12,9 @@
 	{{- partial "head.html" . -}}
     </head>
     <body>
-        {{- partial "header.html" . -}}
+        <header>
+          {{- partial "header.html" . -}}
+	</header>
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>

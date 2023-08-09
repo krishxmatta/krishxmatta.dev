@@ -9,7 +9,12 @@ body {
 
 @font-face {
     font-family: "Genzsch Initials";
-    src: url('/fonts/Genzsch Initials.ttf') format('truetype');
+    src: url("../fonts/Genzsch Initials.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Gesetz";
+    src: url("../fonts/GESETZ.TTF") format('truetype');
 }
 
 a {
@@ -38,4 +43,39 @@ a:visited {
     font-family: "Genzsch Initials";
     font-size: 6em;
     float: left;
+}
+
+.logo {
+    font-family: "Gesetz";
+    font-size: 6em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo a {
+    color: #dcdcdc;
+    text-decoration: none;
+}
+.logo a:hover {
+    color: #999;
+}
+
+.navigation {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin: 10px;
+}
+
+.navigation a {
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: 'IM Fell English', serif;
+    color: #dcdcdc;
+}
+
+.navigation a:hover {
+    color: #999;
 }
