@@ -18,4 +18,10 @@
 <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
 <li>Aliquam tincidunt mauris eu risus.</li>
 </ul>
+
+
+{{ range where .Site.RegularPages "Section" "posts" }}
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <p>{{ .Date.Format "January 02, 2006" }}</p>
+{{ end }}
 {{ end }}
