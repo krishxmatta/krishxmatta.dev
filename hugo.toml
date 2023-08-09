@@ -1,6 +1,6 @@
 baseurl = "https://krishxmatta.dev/"
 languageCode = "en-us"
-theme = "hello-friend"
+theme = "krishxmatta.dev"
 paginate = 5
 
 [params]

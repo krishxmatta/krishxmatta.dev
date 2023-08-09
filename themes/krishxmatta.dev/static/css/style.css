@@ -1,0 +1,41 @@
+body {
+    background-color: #161616;
+    color: #f1f1f1;
+    font-family: 'IM Fell English', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: "Genzsch Initials";
+    src: url('/fonts/Genzsch Initials.ttf') format('truetype');
+}
+
+a {
+    color: #dcdcdc;
+}
+
+a:hover {
+    color: #999;
+}
+
+a:visited {
+    color: #b4b4b4;
+}
+
+::selection {
+    background-color: #dcdcdc;
+    color: #000;
+}
+
+#content {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.drop-cap {
+    font-family: "Genzsch Initials";
+    font-size: 6em;
+    float: left;
+}
