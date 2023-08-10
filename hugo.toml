@@ -1,44 +1,12 @@
 baseurl = "https://krishxmatta.dev/"
-languageCode = "en-us"
 theme = "krishxmatta.dev"
-paginate = 5
 
-[params]
-  contentTypeName = "posts"
+[[menu.main]]
+name = "Site"
+url = "/site"
+weight = 1
 
-  defaultTheme = "dark"
-
-  showMenuItems = 2
-
-  showReadingTime = false
-
-  toc = true
-
-[languages]
-  [languages.en]
-    title = "krishxmatta.dev"
-    keywords = ""
-    copyright = ""
-    menuMore = "Show more"
-    writtenBy = "Written by"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
-    dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
-
-    [languages.en.params.logo]
-      logoText = "krishxmatta.dev"
-      logoHomeLink = "/"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+[[menu.main]]
+name = "Me"
+url = "/me"
+weight = 2
