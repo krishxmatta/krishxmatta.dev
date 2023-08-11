@@ -43,6 +43,8 @@ a:visited {
     font-family: "Genzsch Initials";
     font-size: 6em;
     float: left;
+    margin-right: 5px;
+    margin-bottom: -20px;
 }
 
 .logo {
