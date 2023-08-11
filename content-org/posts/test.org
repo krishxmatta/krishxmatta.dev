@@ -4,8 +4,6 @@
 
 #+DATE: 2023-08-04
 
-#+HUGO_CUSTOM_FRONT_MATTER: :math true
-
 #+OPTIONS: author:nil
 
 Hello!

@@ -2,7 +2,6 @@
 title = "Test"
 date = 2023-08-04
 draft = false
-math = true
 +++
 
 Hello!

@@ -2,7 +2,6 @@
 title = "About Me"
 date = 2023-08-04
 draft = false
-math = true
 +++
 
 I'm Krish Matta. This website serves as both an outlet for me to haphazardly share some of my thoughts and a great exercise to improve my writing style.
