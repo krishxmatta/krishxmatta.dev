@@ -102,3 +102,16 @@ header {
 .navigation a:hover {
     color: #999;
 }
+
+.posting h1, h2 {
+    margin-bottom: 0;
+}
+
+.posting p {
+    margin-top: 0;
+}
+
+.posting {
+    display: block;
+    margin-bottom: 30px;
+}
