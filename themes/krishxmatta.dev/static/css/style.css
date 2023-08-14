@@ -7,6 +7,10 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+h1 {
+    font-size: 3em;
+}
+
 p {
     text-align: justify;
 }
@@ -109,9 +113,15 @@ header {
 
 .posting p {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .posting {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+.date-info-post {
+    font-size: 0.8em;
+    color: #b4b4b4;
 }

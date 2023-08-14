@@ -17,7 +17,7 @@ function adjustMargin() {
 }
 
 window.onload = function() {
-    const firstParagraph = document.querySelector('p:first-of-type');
+    const firstParagraph = document.querySelector('p:not(.date-info-post):first-of-type');
     if (firstParagraph) {
         firstParagraph.classList.add('drop-cap-paragraph');
 	
