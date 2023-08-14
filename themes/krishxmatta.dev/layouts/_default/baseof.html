@@ -11,6 +11,9 @@
         <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
 	<link rel="icon" href="{{ "img/icon.png" | relURL }}">
 	<script src="{{ "js/main.js" | relURL }}"></script>
+	{{ if .Params.drop_cap }}
+	  <script src="{{ "js/drop_cap.js" | relURL }}"></script>
+	{{ end }}
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
         <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
