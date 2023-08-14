@@ -1,9 +1,7 @@
 #+HUGO_BASE_DIR: ../
 #+HUGO_SECTION: 
 
-#+TITLE: About Me
-
-#+DATE: 2023-08-04
+#+TITLE: Me
 
 #+OPTIONS: author:nil
 

@@ -1,6 +1,5 @@
 +++
-title = "About Me"
-date = 2023-08-04
+title = "Me"
 draft = false
 +++
 
