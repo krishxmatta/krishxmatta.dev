@@ -15,6 +15,11 @@ p {
     text-align: justify;
 }
 
+ul {
+    list-style: inside;
+    padding-left: 0;
+}
+
 @font-face {
     font-family: "Genzsch Initials";
     src: url("../fonts/Genzsch Initials.ttf") format('truetype');
