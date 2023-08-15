@@ -10,3 +10,19 @@ weight = 1
 name = "Me"
 url = "/me"
 weight = 2
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = ''
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = false
+    noHl = false
+    style = ''
+    tabWidth = ''

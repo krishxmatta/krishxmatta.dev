@@ -1,9 +1,10 @@
 +++
 title = "Me"
 draft = false
+drop_cap = false
 +++
 
-I'm Krish Matta. This website serves as both an outlet for me to haphazardly share some of my thoughts and a great exercise to improve my writing style.
+I'm Krish Matta.
 
 
 ## Work {#work}
@@ -15,6 +16,7 @@ I'm a student at Carnegie Mellon University in Pittsburgh, Pennsylvania. While m
 
 -   [GitHub](https://github.com/krishxmatta)
 -   [LinkedIn](https://www.linkedin.com/in/krishxmatta/)
+-   [Goodreads](https://www.goodreads.com/user/show/164088838-krish-matta)
 
 
 ## Contact {#contact}

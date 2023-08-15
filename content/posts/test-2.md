@@ -1,20 +1,15 @@
 +++
-title = "Test"
-date = 2023-08-04
+title = "Test 2"
+date = 2023-08-11
 draft = false
+lastmodified = 2023-08-14
 drop_cap = true
 +++
 
-Welcome!
+Hello again!
 
 This \\[x + y\\] is an equation.
 
 This \\(x + y\\) is an inline equation.
 
 This post was written using org-mode.
-
-This is a code block:
-
-```python
-print("Hello, world!")
-```

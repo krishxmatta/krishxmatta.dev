@@ -1,0 +1,6 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: 
+
+#+OPTIONS: author:nil
+
+Welcome to my site.

@@ -1,6 +1,8 @@
 {{ define "main" }}
 <h1>Home</h1>
-<p>Welcome to Krish Matta's Website.</p> 
+{{ with .GetPage "_index.md" }}
+    {{ .Content }}
+{{ end }}
 
 <h2>Posts</h2>
 {{ range where .Site.RegularPages "Section" "posts" }}
@@ -9,6 +11,11 @@
         {{ if .Date }}
           <p>Posted on: <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
 	{{ end }}
+        {{ if .Params.lastmodified }}
+	  {{ $lastModifiedTimeISO := dateFormat "2006-01-02" .Params.lastmodified }}
+	  {{ $lastModifiedTime := dateFormat "January 2, 2006" .Params.lastmodified }}
+          <p>Last updated: <time datetime="{{ $lastModifiedTimeISO }}">{{ $lastModifiedTime }}</time></p>
+        {{ end }}
     </span>
 {{ end }}
 {{ end }}

@@ -1,0 +1,36 @@
+#+HUGO_BASE_DIR: ../
+#+HUGO_SECTION: 
+
+#+TITLE: Site
+
+#+HUGO_CUSTOM_FRONT_MATTER: :drop_cap false
+
+#+OPTIONS: author:nil
+
+This site serves as both an outlet for me to haphazardly share some of my thoughts and an exercise to improve my writing style. It has been carefully tailored to fit my vision.
+
+* Technical Aspects
+** Hosting
+This site is hosted on GitHub Pages, and consequently managed using git. Its repository is available [[https://github.com/krishxmatta/krishxmatta.dev/][here]].
+
+** Workflow
+[[https://gohugo.io/][Hugo]] is used as a static site generator to easily maintain fine-grained control over the site without having to directly manage its HTML. All content on the website originates as an Org file created in Emacs, as it is my preferred editor. All posts in their Org form are available in the [[https://github.com/krishxmatta/krishxmatta.dev/tree/main/content-org][content-org]] folder found in the site repository. The [[https://ox-hugo.scripter.co/][ox-hugo]] Emacs package is then used to convert Org files to Hugo-compatible Markdown. Once this Markdown is pushed to the main repository, a GitHub Action automatically deploys the site to [[https://krishxmatta.dev][krishxmatta.dev]].
+
+I originally had hoped to use a Lisp-based static site generator such as [[https://dthompson.us/projects/haunt.html][Haunt]], but such tools proved to be cumbersome and impractical for use---hence, my current choice of Hugo. This selection is subject to change, however.
+
+** Design
+The site is designed to be minimal while maintaining some stylistic features to impart a distinctive touch. Ironically, many design choices are attributed to [[https://gwern.net/][Gwern]], but I hope to iteratively modify the style into my own. The appearance itself is managed with a [[https://github.com/krishxmatta/krishxmatta.dev/tree/main/themes/krishxmatta.dev][custom Hugo theme]].
+
+* To-Do
+Below is a list of everything I'd like to eventually add to the site.
+** Features
+- RSS feed integration
+  
+** Appearance
+- Improved code blocks
+- Improved post listing on homepage
+- Pagination on homepage
+- Improved blockquotes
+  
+** Articles
+- Write an article regarding notes workflow
