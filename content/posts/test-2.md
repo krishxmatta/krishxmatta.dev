@@ -13,3 +13,6 @@ This \\[x + y\\] is an equation.
 This \\(x + y\\) is an inline equation.
 
 This post was written using org-mode.
+
+> Everything should be made as simple as possible,
+> but not any simpler -- Albert Einstein
