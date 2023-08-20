@@ -88,6 +88,10 @@ body a:visited {
 
 #content {
     margin-left: 100px;
+    hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
 }
 
 header {
