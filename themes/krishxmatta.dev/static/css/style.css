@@ -12,7 +12,7 @@
     --body-link-hover-color: var(--gray-4);
     --body-link-visited-color: var(--gray-3);
     --text-selection-background-color: var(--gray-2);
-    --text-selection-color: var(black);
+    --text-selection-color: var(--black);
     --header-text-color: var(--gray-1);
     --header-link-hover-color: var(--gray-4);
     --post-info-date-color: var(--gray-3);
