@@ -72,7 +72,7 @@ body a {
     color: var(--body-link-color);
 }
 
-body a:hover {
+body a:hover, body a:visited:hover {
     color: var(--body-link-hover-color);
 }
 
@@ -89,8 +89,12 @@ header {
     margin-top: -5px;
 }
 
-header, header a:visited {
+header, header a, header a:visited {
     color: var(--header-text-color);
+}
+
+header a {
+    text-decoration: none;
 }
 
 header a:hover, header a:visited:hover {
@@ -111,28 +115,12 @@ header .horizontal-bar {
     font-size: 6em;
 }
 
-.logo a {
-    text-decoration: none;
-}
-
-.logo a:hover {
-    color: var(--logo-hover-color);
-}
-
 .navigation {
     display: flex;
     flex-direction: column;
     margin-right: 10px;
     align-items: center;
     font-family: 'IM Fell English', serif;
-}
-
-.navigation a {
-    text-decoration: none;
-}
-
-.navigation a:hover {
-    color: var(--navigation-link-hover-color);
 }
 
 #content {
