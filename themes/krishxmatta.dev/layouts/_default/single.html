@@ -1,14 +1,14 @@
 {{ define "main" }}
   <article>
-    <span class="posting"> 
+    <span class="post-info"> 
       <h1>{{ .Title }}</h1>
       {{ if .Date }}
-        <p class="date-info-post">Posted on: <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
+        <p class="post-info-date">Posted on: <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></p>
       {{ end }}
       {{ if .Params.lastmodified }}
 	{{ $lastModifiedTimeISO := dateFormat "2006-01-02" .Params.lastmodified }}
 	{{ $lastModifiedTime := dateFormat "January 2, 2006" .Params.lastmodified }}
-        <p class="date-info-post">Last updated: <time datetime="{{ $lastModifiedTimeISO }}">{{ $lastModifiedTime }}</time></p>
+        <p class="post-info-date">Last updated: <time datetime="{{ $lastModifiedTimeISO }}">{{ $lastModifiedTime }}</time></p>
       {{ end }}
     </span>
     <div>{{ .Content }}</div>

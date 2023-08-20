@@ -1,10 +1,50 @@
+:root {
+    --gray-1: #f1f1f1;
+    --gray-2: #dcdcdc;
+    --gray-3: #b4b4b4;
+    --gray-4: #999;
+    --gray-5: #161616;
+    --black: #000;
+    
+    --body-background-color: var(--gray-5);
+    --body-text-color: var(--gray-1);
+    --body-link-color: var(--gray-2);
+    --body-link-hover-color: var(--gray-4);
+    --body-link-visited-color: var(--gray-3);
+    --text-selection-background-color: var(--gray-2);
+    --text-selection-color: var(black);
+    --header-text-color: var(--gray-1);
+    --header-link-hover-color: var(--gray-4);
+    --post-info-date-color: var(--gray-3);
+}
+
+@font-face {
+    font-family: "Genzsch Initials";
+    src: url("../fonts/Genzsch Initials.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Gesetz";
+    src: url("../fonts/GESETZ.TTF") format('truetype');
+}
+
+::selection {
+    background-color: var(--text-selection-background-color);
+    color: var(--text-selection-color);
+}
+
 body {
-    background-color: #161616;
-    color: #f1f1f1;
+    background-color: var(--body-background-color);
+    color: var(--body-text-color);
     font-family: 'IM Fell English', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    font-size: 1em;
+}
+
+p {
+    text-align: justify;
 }
 
 h1 {
@@ -19,9 +59,8 @@ h3 {
     font-size: 1.5em;
 }
 
-
-p {
-    text-align: justify;
+h1, h2, h3 {
+    margin-bottom: 0;
 }
 
 ul {
@@ -29,31 +68,71 @@ ul {
     padding-left: 0;
 }
 
-@font-face {
-    font-family: "Genzsch Initials";
-    src: url("../fonts/Genzsch Initials.ttf") format('truetype');
+body a {
+    color: var(--body-link-color);
 }
 
-@font-face {
+body a:hover {
+    color: var(--body-link-hover-color);
+}
+
+body a:visited {
+    color: var(--body-link-visited-color);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    margin-left: 300px;
+    margin-top: -5px;
+}
+
+header, header a:visited {
+    color: var(--header-text-color);
+}
+
+header a:hover, header a:visited:hover {
+    color: var(--header-link-hover-color);
+}
+
+header .horizontal-bar {
+    height: 1px;
+    width: 100%;
+    background-color: var(--header-text-color);
+    margin-right: 10px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+}
+
+.logo {
     font-family: "Gesetz";
-    src: url("../fonts/GESETZ.TTF") format('truetype');
+    font-size: 6em;
 }
 
-a {
-    color: #dcdcdc;
+.logo a {
+    text-decoration: none;
 }
 
-a:hover {
-    color: #999;
+.logo a:hover {
+    color: var(--logo-hover-color);
 }
 
-a:visited {
-    color: #b4b4b4;
+.navigation {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    align-items: center;
+    font-family: 'IM Fell English', serif;
 }
 
-::selection {
-    background-color: #dcdcdc;
-    color: #000;
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: var(--navigation-link-hover-color);
 }
 
 #content {
@@ -70,72 +149,25 @@ a:visited {
     margin-bottom: -20px;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: fixed;
-    margin-left: 300px;
-    margin-top: -5px;
+.post-list-item, .post-info {
+    margin-bottom: 25px;
 }
 
-.logo {
-    font-family: "Gesetz";
-    font-size: 6em;
-    text-decoration: none;
-}
-
-.logo a {
-    color: #dcdcdc;
-    text-decoration: none;
-}
-
-.logo a:hover {
-    color: #999;
-}
-
-.horizontal-bar {
-    height: 1px;
-    width: 100%;
-    background-color: white;
-    flex-grow: 1;
-    margin-right: 10px;
-    margin-top: -10px;
-    margin-bottom: 7px;
-}
-
-.navigation {
-    display: flex;
-    flex-direction: column;
-    margin-right: 10px;
-    align-items: center;
-}
-
-.navigation a {
-    text-decoration: none;
-    font-family: 'IM Fell English', serif;
-    color: #dcdcdc;
-}
-
-.navigation a:hover {
-    color: #999;
-}
-
-.posting h1, h2, h3 {
+.post-list-item h1, h2, h3 {
     margin-bottom: 0;
 }
 
-.posting p {
+.post-list-item p {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.posting {
-    display: block;
-    margin-bottom: 25px;
+.post-info-date {
+    font-size: 0.8em;
+    color: var(--post-info-date-color);
 }
 
-.date-info-post {
-    font-size: 0.8em;
-    color: #b4b4b4;
+.post-info p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
