@@ -7,7 +7,7 @@
 
 #+OPTIONS: author:nil
 
-This site serves as both an outlet for me to haphazardly share some of my thoughts and an exercise to improve my writing style.
+This site serves as both an outlet for me to haphazardly share my thoughts and an exercise to improve my writing style.
 
 * Technical Aspects
 ** Hosting
@@ -33,5 +33,5 @@ Below is a list of everything I hope to eventually incorporate in the site.
 - Improved blockquotes
   
 ** Articles
-- Write an article regarding notes workflow
-- Write an article regarding productivity setup
+- Write an article regarding notes setup
+- Write an article regarding productivity workflow

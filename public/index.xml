@@ -51,7 +51,7 @@ Sites GitHub LinkedIn Goodreads Contact You may contact me via email at self@kri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://krishxmatta.dev/site/</guid>
-      <description>This site serves as both an outlet for me to haphazardly share some of my thoughts and an exercise to improve my writing style.
+      <description>This site serves as both an outlet for me to haphazardly share my thoughts and an exercise to improve my writing style.
 Technical Aspects Hosting This site is hosted on GitHub Pages, and consequently managed using git. Its repository is available here.
 Workflow Hugo is used as a static site generator to easily maintain fine-grained control over the site without having to directly manage its HTML. All content on the website originates as an Org file created in Emacs, as it is my preferred editor.</description>
     </item>

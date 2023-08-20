@@ -4,7 +4,7 @@ draft = false
 drop_cap = false
 +++
 
-This site serves as both an outlet for me to haphazardly share some of my thoughts and an exercise to improve my writing style.
+This site serves as both an outlet for me to haphazardly share my thoughts and an exercise to improve my writing style.
 
 
 ## Technical Aspects {#technical-aspects}
@@ -29,7 +29,7 @@ The site is designed to be minimal while maintaining some stylistic features to 
 
 ## To-Do {#to-do}
 
-Below is a list of everything I'd like to eventually incorporate in the site.
+Below is a list of everything I hope to eventually incorporate in the site.
 
 
 ### Features {#features}
@@ -47,5 +47,5 @@ Below is a list of everything I'd like to eventually incorporate in the site.
 
 ### Articles {#articles}
 
--   Write an article regarding notes workflow
--   Write an article regarding productivity setup
+-   Write an article regarding notes setup
+-   Write an article regarding productivity workflow
