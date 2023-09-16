@@ -24,8 +24,8 @@
 }
 
 @font-face {
-    font-family: "Gesetz";
-    src: url("../fonts/GESETZ.TTF") format('truetype');
+    font-family: "Holy Union";
+    src: url("../fonts/holy-union.regular.ttf") format('truetype');
 }
 
 ::selection {
@@ -98,7 +98,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 30px;
     position: fixed;
     
 }
@@ -115,25 +115,16 @@ header a:hover, header a:visited:hover {
     color: var(--header-link-hover-color);
 }
 
-header .horizontal-bar {
-    height: 1px;
-    width: 100%;
-    background-color: var(--header-text-color);
-    margin-right: 10px;
-    margin-top: -8px;
-    margin-bottom: 8px;
-}
-
 .logo {
-    font-family: "Gesetz";
+    font-family: "Holy Union";
     font-size: 6em;
 }
 
 .navigation {
     display: flex;
     flex-direction: column;
-    margin-right: 10px;
     align-items: center;
+    margin-top: -15px;
     font-family: 'IM Fell English', serif;
 }
 
