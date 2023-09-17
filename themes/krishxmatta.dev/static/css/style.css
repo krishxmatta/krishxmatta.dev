@@ -161,12 +161,24 @@ header a:hover, header a:visited:hover {
 }
 
 @media (max-width: 768px) {
-    body {
-	margin-left: 5%;
-	margin-right: 10%
-    }
+   body {
+     flex-direction: column;
+	  margin-left: 5%;
+	  margin-right: 5%
+   }
 
-    #content {
-        margin-left: 75px;
-    }
+   header {
+     flex-direction: column;
+     position: static;
+     margin-top: 0px;
+   }
+
+   .navigation {
+     flex-direction: row;
+     gap: 10px;
+   }
+
+   #content {
+     margin-left: 0px;
+   }
 }
