@@ -27,6 +27,16 @@ I originally had hoped to use a Lisp-based static site generator such as [Haunt]
 The site is designed to be minimal while maintaining some stylistic features to impart a distinctive touch. Ironically, many design choices are attributed to [Gwern](https://gwern.net/), but I hope to iteratively modify the style into my own. The appearance itself is managed with a [custom Hugo theme](https://github.com/krishxmatta/krishxmatta.dev/tree/main/themes/krishxmatta.dev).
 
 
+## Updates {#updates}
+
+My thoughts and beliefs are constantly evolving as I continue to learn and encounter new ideas---consequently, this site is organic, meaning that it is subject to frequent change without prior warning. As such, I'm not entirely in favor of imposing chronological ordering on this site's posts, but it holds some conveniences that make it worth incorporating. The combination of frequent updates alongside chronological order can certainly cause confusion when reading posts, so to help ameliorate this issue I have included a changelog for the site below. For more detailed descriptions of each change made, please refer to the site repository's [commit history](https://github.com/krishxmatta/krishxmatta.dev/commits/main).
+
+
+### Changelog {#changelog}
+
+-   9/17/2023: Implemented changelog
+
+
 ## To-Do {#to-do}
 
 Below is a list of everything I hope to eventually incorporate in the site.
