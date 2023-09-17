@@ -123,6 +123,7 @@ header a:hover, header a:visited:hover {
 .navigation {
     display: flex;
     flex-direction: column;
+    font-size: 1.25em;
     align-items: center;
     margin-top: -15px;
     font-family: 'IM Fell English', serif;
