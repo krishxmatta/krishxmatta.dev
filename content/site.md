@@ -34,8 +34,7 @@ My thoughts and beliefs are constantly evolving as I continue to learn and encou
 
 ### Changelog {#changelog}
 
--   9/17/2023: Improve mobile layout
--   9/17/2023: Increase navigation link size
+-   11/24/2023: Posted [Task Management](../posts/task-management/)
 -   9/17/2023: Implemented changelog
 
 
