@@ -59,4 +59,3 @@ Below is a list of everything I hope to eventually incorporate in the site.
 ### Articles {#articles}
 
 -   Write an article regarding notes setup
--   Write an article regarding productivity workflow
