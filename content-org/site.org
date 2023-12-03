@@ -24,6 +24,7 @@ The site is designed to be minimal while maintaining some stylistic features to 
 * Updates
 My thoughts and beliefs are constantly evolving as I continue to learn and encounter new ideas---consequently, this site is organic, meaning that it is subject to frequent change without prior warning. As such, I'm not entirely in favor of imposing chronological ordering on this site's posts, but it holds some conveniences that make it worth incorporating. The combination of frequent updates alongside chronological order can certainly cause confusion when reading posts, so to help ameliorate this issue I have included a changelog for the site below. For more detailed descriptions of each change made, please refer to the site repository's [[https://github.com/krishxmatta/krishxmatta.dev/commits/main][commit history]].
 ** Changelog
+- 12/2/2023: Fixed incorrect code snippet in [[../posts/task-management/][Task Management]]
 - 11/24/2023: Posted [[../posts/task-management/][Task Management]]
 - 9/17/2023: Implemented changelog
 
