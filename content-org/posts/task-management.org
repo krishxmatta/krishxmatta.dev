@@ -107,7 +107,7 @@ I then write a function which, when invoked, checks if the current buffer is vie
     (string-prefix-p (expand-file-name "~/org/todo/") buffer-file-name))
     (setq org-refile-targets
 	   '(("~/org/todo/next.org" :level . 1)
-	     ("~/org/todo/projects.org" :maxlevel . 3)
+	     ("~/org/todo/projects.org" :level . 1)
         ("~/org/todo/delegated.org" :level . 1)
         ("~/org/todo/reminders.org" :level . 1)
         ("~/org/todo/calendar.org" :level . 1)

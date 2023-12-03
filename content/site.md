@@ -34,6 +34,7 @@ My thoughts and beliefs are constantly evolving as I continue to learn and encou
 
 ### Changelog {#changelog}
 
+-   12/2/2023: Fixed incorrect code snippet in [Task Management](../posts/task-management/)
 -   11/24/2023: Posted [Task Management](../posts/task-management/)
 -   9/17/2023: Implemented changelog
 
