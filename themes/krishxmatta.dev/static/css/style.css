@@ -3,6 +3,7 @@
     --gray-2: #dcdcdc;
     --gray-3: #b4b4b4;
     --gray-4: #999;
+    --gray-45: #1b1b1b;
     --gray-5: #161616;
     --black: #000;
     
@@ -16,6 +17,7 @@
     --header-text-color: var(--gray-1);
     --header-link-hover-color: var(--gray-4);
     --post-info-date-color: var(--gray-3);
+    --code-text-color: var(--gray-45);
 }
 
 @font-face {
@@ -26,6 +28,11 @@
 @font-face {
     font-family: "Holy Union";
     src: url("../fonts/holy-union.regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Iosevka";
+    src: url("../fonts/Iosevka-Regular.ttf") format('truetype');
 }
 
 ::selection {
@@ -129,6 +136,21 @@ header a:hover, header a:visited:hover {
     font-family: 'IM Fell English', serif;
 }
 
+pre {
+    background-color: var(--code-text-color);
+    font-size: 1em;
+    padding: 10px;
+    width: 43vw;
+}
+
+pre code {
+  font-family: "Iosevka";
+  display: block;
+  overflow-x: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .drop-cap {
     font-family: "Genzsch Initials";
     font-size: 6em;
@@ -180,5 +202,9 @@ header a:hover, header a:visited:hover {
 
    #content {
      margin-left: 0px;
+   }
+
+   pre {
+       width: 100%;
    }
 }
