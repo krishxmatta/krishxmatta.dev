@@ -11,7 +11,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-	<link href="{{ "css/base16-tomorrow-night.css" | relURL }}" rel="stylesheet" />
 	
 	<script src="{{ "js/main.js" | relURL }}"></script>
 	{{ if .Params.drop_cap }}
@@ -19,7 +18,6 @@
 	{{ end }}
         <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
-	<script src="{{ "js/prism.js" | relURL }}"></script>
 
 	{{- partial "head.html" . -}}
     </head>
