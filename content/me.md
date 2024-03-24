@@ -27,7 +27,7 @@ I would describe myself as optimistic, introverted, and ambitious. My scores on 
 
 My academic interests are broad, spanning computer science, mathematics, philosophy, literature, and history. While most of my time is spent on computer science, I'm a strong proponent of the idea that one's knowledge should be "T-shaped," with the horizontal bar representing knowledge over a breadth of subjects and the vertical bar representing a large depth of knowledge in a single subject. Ultimately, I hope to contribute to the creation of safe artificial general intelligence.
 
-On a more casual note, I also enjoy strategy games (particularly card games), puzzles, instrumental music, photography (nature, architectural, landscape), and gardening.
+On a more casual note, I also enjoy strategy games (particularly card games), puzzles, hip-hop, instrumental music, photography (nature, architectural, landscape), and gardening.
 
 
 ## Sites {#sites}
